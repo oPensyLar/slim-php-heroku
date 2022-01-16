@@ -29,7 +29,7 @@ $app->group('/usuarios', function (RouteCollectorProxy $group) {
   });
 
 $app->get('[/]', function (Request $request, Response $response) {    
-    $response->getBody()->write("GET => Bienvenido!!! a SlimFramework");
+    $response->getBody()->write("NO cambia");
     return $response;
 
 });
